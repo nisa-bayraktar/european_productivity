@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenericMetadata xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata SDMXGenericMetadata.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>ESAW_SIMS_A</ID>
+        <Test>false</Test>
+        <Name>ESAW_SIMS_A_SI_2019_0000 (hsw_acc_work_simsaw_si)</Name>
+        <Prepared>2022-02-08T14:24:11</Prepared>
+        <Sender id="SI5">
+            <Contact/>
+        </Sender>
+        <DataSetID>ESAW_SIMS_A_1644326652617</DataSetID>
+        <DataSetAction></DataSetAction>
+        <Extracted></Extracted>
+        <ReportingBegin>2019-01-01T00:00:00</ReportingBegin>
+        <ReportingEnd>2019-12-31T00:00:00</ReportingEnd>
+        <DataSetAgency>ESTAT</DataSetAgency>
+    </Header>
+    <genericmetadata:MetadataSet>
+        <genericmetadata:MetadataStructureRef>ESAW_SIMS_MSD</genericmetadata:MetadataStructureRef>
+        <genericmetadata:MetadataStructureAgencyRef>ESTAT</genericmetadata:MetadataStructureAgencyRef>
+        <genericmetadata:ReportRef>SIMS_REPORT_FULL</genericmetadata:ReportRef>
+        <genericmetadata:AttributeValueSet>
+            <genericmetadata:TargetRef>FULL_ESMS</genericmetadata:TargetRef>
+            <genericmetadata:TargetValues>
+                <genericmetadata:ComponentValue component="TIME_PERIOD" object="TimeDimension">2019-A0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATA_PROVIDER" object="DataProvider">SI5</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATAFLOW" object="DataFlow">ESAW_SIMS_A:1.2</genericmetadata:ComponentValue>
+            </genericmetadata:TargetValues>
+            <genericmetadata:ReportedAttribute conceptID="CONTACT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_ORGANISATION">
+                    <genericmetadata:Value>&lt;p&gt;National Institute of Public Health (NIJZ)&lt;br /&gt;Nacionalni inštitut za javno zdravje (NIJZ)&lt;br /&gt;Trubarjeva 2&lt;br /&gt;1000 Ljubljana&lt;br /&gt;Slovenia&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ORGANISATION_UNIT">
+                    <genericmetadata:Value>&lt;p&gt;Health Data Center&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_NAME">
+                    <genericmetadata:Value>&lt;p&gt;Mateja Kastelic&lt;/p&gt;
+&lt;p&gt;Tatjana Kofol&lt;/p&gt;
+&lt;p&gt;Darja Lavtar&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FUNCT">
+                    <genericmetadata:Value>&lt;p&gt;Mateja Kastelic (data base manager)&lt;/p&gt;
+&lt;p&gt;Tatjana Kofol (public health specialist)&lt;/p&gt;
+&lt;p&gt;Darja Lavtar (methodologist)&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_MAIL">
+                    <genericmetadata:Value>&lt;p&gt;Trubarjeva 2&lt;br /&gt;1000 Ljubljana&lt;br /&gt;Slovenia&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_EMAIL">
+                    <genericmetadata:Value>&lt;p&gt;Tatjana Kofol: tatjana.kofol@nijz.si&lt;/p&gt;
+&lt;p&gt;Mateja Kastelic: mateja.kastelic@nijz.si&lt;/p&gt;
+&lt;p&gt;Darja Lavtar: darja.lavtar@nijz.si&lt;/p&gt;
+&lt;p&gt;International data dissemination: edamis@nijz.si&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_PHONE">
+                    <genericmetadata:Value>&lt;p&gt;Tatjana Kofol: 00386 1 2441 484&lt;/p&gt;
+&lt;p&gt;Mateja Kastelic: 00386 1 2441 502&lt;/p&gt;
+&lt;p&gt;Darja Lavtar: 00386 1 2441 422&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FAX">
+                    <genericmetadata:Value>&lt;p&gt;Not available&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="META_UPDATE">
+                <genericmetadata:Value>23/06/2021</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="META_CERTIFIED">
+                    <genericmetadata:Value>23/06/2021</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_POSTED">
+                    <genericmetadata:Value>23/06/2021</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_LAST_UPDATE">
+                    <genericmetadata:Value>23/06/2021</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="STAT_PRES">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="DATA_DESCR">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Harmonised data on accidents at work are collected in the framework of the administrative data collection 'European Statistics on Accidents at Work (ESAW)', on the basis of a methodology developed first in 1990.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;An accident at work is defined as 'a discrete occurrence in the course of work which leads to physical or mental harm'. The data include only fatal and non-fatal accidents involving more than 3 calendar days of absence from work. If the accident does not lead to the death of the victim it is called a 'non-fatal' (or 'serious') accident.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;A fatal accident at work is defined as an accident which leads to the death of a victim within one year of the accident.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The variables collected on accidents at work include:&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;- Economic activity of the employer and size of the enterprise&lt;br /&gt;- Employment status, occupation, age, sex and nationality of victim&lt;br /&gt;- Geographical location, date and time of the accident&lt;br /&gt;- Type of injury, body part injured and the severity of the accident (number of full calendar days during which the victim is unfit for work excluding the day of the accident, permanent incapacity or death within one year of the accident).&lt;br /&gt;- Variables on causes and circumstances of the accident: workstation, working environment, working process, specific physical activity, material agent of the specific physical activity, deviation and material agent of deviation, contact - mode of injury and material agent of contact - mode of injury.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span&gt;In Slovenia accidents at work are reported to the&amp;nbsp;National Institute of Public Health.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The data is presented in form of numbers, percentages, incidence rates and standardised incidence rates of non-fatal and fatal accidents at work, either for EU aggregates, countries or certain breakdowns by dimensions such as age, sex etc.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;- Numbers correspond to a simple count of all non-fatal and fatal accidents for the entirety or certain breakdowns of the data;&lt;br /&gt;- Percentages represent shares of breakdowns;&lt;br /&gt;- The incidence rate of non-fatal or fatal accidents at work is the number of serious or fatal accidents per 100,000 persons in employment;&lt;br /&gt;- The standardised incidence rates of non-fatal or fatal accidents at work aim to eliminate differences in the structures of countries' economies (see section 18.6 Adjustment for more details).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The incidence rate indicates the relative importance of non-fatal or fatal accidents at work in the working population. For both types of accidents at work the numerator is the number of accidents that occurred during the year. The denominator is the reference population (i.e. the number of persons in employment) expressed in 100,000 persons.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The reference population (or number of persons in employment) related to the national ESAW reporting system is provided by the Member States, either from administrative sources related to accidents at work or from the EU Labour Force Survey (LFS) (http://ec.europa.eu/eurostat/web/lfs/overview).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Harmonised data on accidents at work are collected in the framework of the administrative data collection 'European Statistics on Accidents at Work (ESAW)', on the basis of a methodology developed first in 1990.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;An accident at work is defined as 'a discrete occurrence in the course of work which leads to physical or mental harm'. The data include only fatal and non-fatal accidents involving more than 3 calendar days of absence from work. If the accident does not lead to the death of the victim it is called a 'non-fatal' (or 'serious') accident.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;A fatal accident at work is defined as an accident which leads to the death of a victim within one year of the accident.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The variables collected on accidents at work include:&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;- Economic activity of the employer and size of the enterprise&lt;br /&gt;- Employment status, occupation, age, sex and nationality of victim&lt;br /&gt;- Geographical location, date and time of the accident&lt;br /&gt;- Type of injury, body part injured and the severity of the accident (number of full calendar days during which the victim is unfit for work excluding the day of the accident, permanent incapacity or death within one year of the accident).&lt;br /&gt;- Variables on causes and circumstances of the accident: workstation, working environment, working process, specific physical activity, material agent of the specific physical activity, deviation and material agent of deviation, contact - mode of injury and material agent of contact - mode of injury.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The national ESAW sources are the declarations of accidents at work, either to the accident insurance of the national social security system, a private insurance for accidents at work or to other relevant national authorities (labour inspection etc.). As an exception, accident data for the Netherlands are based on survey data.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;On the Eurostat website, ESAW data are disseminated in two sections: 'Main Indicators' and 'Details by economic sector (NACE Rev2, 2008 onwards)'. Depending on the table, data are broken down by: economic activity (NACE 'main sectors' (1 digit code) or more detailed NACE divisions (2 digit codes)); the occupation of the victim (ISCO-08 code); country; severity of the accident, sex, age, employment status, size of the enterprise, body part injured and type of injury.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The data is presented in form of numbers, percentages, incidence rates and standardised incidence rates of non-fatal and fatal accidents at work, either for EU aggregates, countries or certain breakdowns by dimensions such as age, sex etc.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;- Numbers correspond to a simple count of all non-fatal and fatal accidents for the entirety or certain breakdowns of the data;&lt;br /&gt;- Percentages represent shares of breakdowns;&lt;br /&gt;- The incidence rate of non-fatal or fatal accidents at work is the number of serious or fatal accidents per 100,000 persons in employment;&lt;br /&gt;- The standardised incidence rates of non-fatal or fatal accidents at work aim to eliminate differences in the structures of countries' economies (see section 20.6 Adjustment for more details).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The incidence rate indicates the relative importance of non-fatal or fatal accidents at work in the working population. For both types of accidents at work the numerator is the number of accidents that occurred during the year. The denominator is the reference population (i.e. the number of persons in employment) expressed in 100,000 persons.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The reference population (or number of persons in employment) related to the national ESAW reporting system is provided by the Member States, either from administrative sources related to accidents at work or from the EU Labour Force Survey (LFS) (http://ec.europa.eu/eurostat/web/lfs/overview).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CLASS_SYSTEM">
+                    <genericmetadata:Value>&lt;p&gt;The following classifications are used in ESAW:&lt;/p&gt;
+&lt;p&gt;NACE Rev. 2: 2nd revision of the Statistical Classification of Economic Activities in the European Community managed by Eurostat. For ESAW data NACE Rev. 2 is used from reference year 2008 onwards;&lt;br /&gt; ISCO-08: International Standard Classification of Occupations managed by the International Labour Organisation (ILO) (revision of 2008). ISCO-08 should be used from reference year 2011 onwards (not all countries use it yet);&lt;br /&gt; NUTS 2013: Nomenclature of territorial units for statistics. The current NUTS 2013 classification is valid from 1 January 2015, though many datasets will still include other NUTS versions.&lt;br /&gt; ICSE-93: International Classification by Status in Employment (revision of 1993)&lt;/p&gt;
+&lt;p&gt;For full details on these classifications, please see our nomenclature server Ramon (http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_SECTOR">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;All economic sectors A - S according to NACE Rev. 2 should in principle be covered from reference year 2013 onwards. Before the reference year 2013, there was no obligation to cover sectors outside the so-called 'common branches' A and C – N. However, most Member States covered those non-common sectors C and O – S as well as T and U before on a voluntary basis.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The NACE sectors are (all branches, at one digit level):&lt;br /&gt;A AGRICULTURE, FORESTRY AND FISHING&lt;br /&gt;B MINING AND QUARRYING&lt;br /&gt;C MANUFACTURING&lt;br /&gt;D ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY&lt;br /&gt;E WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES&lt;br /&gt;F CONSTRUCTION&lt;br /&gt;G WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES&lt;br /&gt;H TRANSPORTATION AND STORAGE&lt;br /&gt;I ACCOMMODATION AND FOOD SERVICE ACTIVITIES&lt;br /&gt;J INFORMATION AND COMMUNICATION&lt;br /&gt;K FINANCIAL AND INSURANCE ACTIVITIES&lt;br /&gt;L REAL ESTATE ACTIVITIES&lt;br /&gt;M PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES&lt;br /&gt;N ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES&lt;br /&gt;O PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY&lt;br /&gt;P EDUCATION&lt;br /&gt;Q HUMAN HEALTH AND SOCIAL WORK ACTIVITIES&lt;br /&gt;R ARTS, ENTERTAINMENT AND RECREATION&lt;br /&gt;S OTHER SERVICE ACTIVITIES&lt;br /&gt;T ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; U0NDIFFERENTIATED GOODS- AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE&lt;br /&gt;U ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Data delivery for sectors T and U is voluntary.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Some sectors and professions are subject to confidentiality rules. According to the ESAW implementing Regulation 349/2011 (annex II), Member States deliver the following NACE Rev. 2 divisions of sector O on a voluntary basis only:&lt;br /&gt;84.22 Defence activities&lt;br /&gt;84.23 Justice and judicial activities&lt;br /&gt;84.24 Public order and safety activities&lt;br /&gt;84.25 Fire services activities&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Section '3.6. Statistical population' below gives information about professions (occupations) subject to confidentiality exceptions.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;On the Eurostat website, the data tables published in section 'Main indicators' (hsw_mi) cover the 13 common branches A, C-N only.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;In the section 'Details by economic activity (NACE Rev. 2, 2008 onwards) (hsw_n2) some data are presented at 1 and 2 digit level of NACE Rev.2 classification.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The ESAW implementing Regulation (see section 11.2 Quality assessment) requires that Member States send data on accidents of 'employees'. Data on accidents of self-employed, family workers and other employment types are voluntary.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The metadata annex to this file contains, besides other information, a detailed overview about which Member State covers which economic sectors and employment types.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COVERAGE_SECTOR_ESAW">
+                        <genericmetadata:Value>&lt;p&gt;COVERAGE OF ECONOMIC SECTORS (NACE), (Annual update expected)&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;NACE&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;NACE Rev.2&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: left;" nowrap="nowrap" width="481"&gt;&lt;strong&gt;Coverage&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Agriculture, forestry and fishing&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;B&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Mining and quarrying&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;em&gt;off shores&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;N.A&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;em&gt;others&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Manufacturing&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;D&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Electricity, gas, steam and air conditioning supply&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;E&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Water supply, sewerage, steam and air conditioning supply&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Construction&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;G&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Wholesale and retail trade; repair of motor vehicles, motorcycles &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;H&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Transportation and storage&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;em&gt;maritime transport (NACE 50)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;em&gt;air transport (NACE 51)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;em&gt;transport via Railways (NACE 49)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;em&gt;post &amp;amp; telecomunications (NACE 53)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;I&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Accomodation and food service activities&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;J&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Information and communication&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;K&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Financial and insurance activities&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;L&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Real state activities&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;M&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Professional, scientific and technical activities&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;N&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Administrative and support service activities&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;O&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Public administration and defence;compulsory social security&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;em&gt;of which police and firebrigades (NACE 84.24 and 84.25)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;P&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Q&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Human health and social work activities&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;R&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Arts, entertainment and recreation&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;S&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Other service activities&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Activities of households as employers; undiferentiated goods- and services-producing activities of&amp;nbsp; households for own use&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="71"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;U&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="481"&gt;
+&lt;p&gt;&lt;strong&gt;Activites of extra territorial organisations and bodies&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="481"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Additional comments on coverage of economic sectors&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Codes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;y Sector fully covered&lt;br /&gt;n Sector not covered at all&lt;br /&gt;p Secor partially covered&lt;br /&gt;n.a. Not applicable, i.e. sector does not exist in country&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_CONC_DEF">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;European Statistics on Accidents at Work (ESAW) are based on case-by-case data for accidents at work resulting in more than 3 days' absence from work, permanent incapacity or death of the victim.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;An accident at work is 'a discrete occurrence in the course of work which leads to physical or mental harm'.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;- This includes all accidents in the course of work, whether they happen inside or outside the premises of the employer, on the premises of another employer, in public places or during transport (including road traffic accidents or accidents in any other mean of transportation) and at home (such as during teleworking). It also includes cases of acute poisoning and wilful acts of other persons;&lt;br /&gt;- It excludes: accidents on the way to or from work (commuting accidents); deliberate self-inflicted injuries; occurrences caused solely by a medical condition (such as heart attack or stroke) that occurred during work, i.e. which were not (at least partially) caused by the occupational activity of the victim;; accidents to members of the public, for example family members of a worker who are not working; and occupational diseases.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;A fatal accident at work is defined as an accident which leads to the death of a victim within one year of the accident. In practice the notification of an accident as fatal ranges from national registration procedures where the accident is registered as fatal when the victim dies during the same day (Netherlands) or within 30 days after the accident (Germany) to cases where no time limits are laid down (Belgium, Greece, France except for deaths occurring after the recognition of a permanent disability, Italy, Luxemburg, Austria, Sweden and Norway). For the other Member States the time limit is one year, except for Spain where the limit is 1,5 years after the date of the accident.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;In a typical fatal accident at work, the death occurs within a few days after the day of the accident and the limitation to the day of the accident would result already in a significant underestimation of such very severe accidents.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The ESAW methodology is in accordance with the ILO (International Labour Office) "Resolution concerning statistics of occupational injuries (resulting from occupational accidents)" adopted by the Sixteenth International Conference of Labour Statisticians in October 1998.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The following 15 phase I and II variables have to be sent by Member States to Eurostat from reference year 2011 onwards on an annual basis:&lt;br /&gt; 1. Case number&lt;br /&gt; 2. Economic activity of the employer (NACE)&lt;br /&gt; 3. Occupation of Victim (ISCO)&lt;br /&gt; 4. Age of Victim&lt;br /&gt; 5. Sex of Victim&lt;br /&gt; 6. Type of Injury&lt;br /&gt; 7. Part of Body Injured&lt;br /&gt; 8. Geographical Location of the Accident&lt;br /&gt; 9. Date of the Accident&lt;br /&gt; 10. Time of the Accident (optional)&lt;br /&gt; 11. Size of the Enterprise (optional)&lt;br /&gt; 12. Nationality of the Victim (optional)&lt;br /&gt; 13. Employment Status of the Victim&lt;br /&gt; 14. Days Lost (severity)&lt;br /&gt; 15. Weight ESAW collection&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;In addition, three of the following nine phase III variables on 'causes and circumstances of the accident' have to be sent annually to Eurostat from reference year 2013 onwards:&lt;br /&gt;16. - 18. Workstation, Working Environment, Working Process&lt;br /&gt;19. - 20. Specific Physical Activity, Material Agent associated with the of Specific Physical Activity&lt;br /&gt;21. - 22. Deviation, Material Agent associated with the Deviation&lt;br /&gt;23. - 24. Contact - mode of injury, Material Agent associated with the Contact - Mode of injury.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Finally, the weight on Causes and Circumstances has to be sent if the Member State applies an additional sampling for the encoding of the ESAW Phase III variables on causes and circumstances. If not applicable the default value is 1.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The definition of the variables is stated in the Commission Regulation (EU) No 349/2011 and further specified in the ESAW methodology.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="STAT_CONC_DEF_ESAW_VARS">
+                        <genericmetadata:Value>&lt;p&gt;COVERAGE OF ESAW VARIABLES (Annual update expected)&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Economic activity of the employer&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;4&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Occupation of the victim&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Age of victim &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Sex of victim&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Type of injury &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Part of body injured &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Geographical location &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Date of the accident &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Time of the accident &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Size of enterprise &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Nationality &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Employment status &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Days lost &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&lt;sup&gt;num&lt;/sup&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Workstation &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Working environment&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Working process&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Specific physical activity&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Material agent of Specific physical activity&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;N&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Deviation &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Material agent of Deviation&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;N&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Contact – mode of injury &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Material agent of Contact - Mode of injury&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Road traffic accidents (RTA)&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;N&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Weight&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="247"&gt;-&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="bottom" width="247"&gt;
+&lt;p&gt;&lt;strong&gt;Type of weight &lt;/strong&gt;(under-reporting - U; sampling - S; special sampling - Sp)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" valign="bottom" width="247"&gt;ok&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Additional comments on coverage of ESAW variables&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Codes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;&lt;strong&gt;Coverage&lt;/strong&gt;&lt;br /&gt;y Variable fully covered&lt;br /&gt;n Variable not covered at all, i.e. variable is so far not collected in country&lt;br /&gt;p Variable partially covered&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;&lt;strong&gt;Days lost&lt;/strong&gt;&lt;br /&gt;y num Days lost are covered and in data file listed by numbers (004 - 182)&lt;br /&gt;y cat Days lost are covered and in data file listed by categories (A01 - A06)&lt;br /&gt;p num, p cat Days lost are partly covered and listed by numbers (categories)&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;&lt;strong&gt;Type of weight&lt;/strong&gt;&lt;br /&gt;U weight to correct under-reporting&lt;br /&gt;S weight to account for sampling&lt;br /&gt;Sp weight to correct special sampling&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_UNIT">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data are collected for each accident.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;If a person is a victim of more than one accident during the reference year, several cases are reported (one for each accident). If there are several victims in the same event of accident, also several cases are reported (one for each victim).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_POP">
+                    <genericmetadata:Value>&lt;p&gt;In principle all accidents at work should be covered that fulfil the definition of '3.4. Statistical concepts and definitions'.&lt;/p&gt;
+&lt;p&gt;In terms of employment types covered, Member States are required to report on 'employees'. The other employment types (self-employed, family members, students and others) are voluntary.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;In addition to NACE sector O (see section 3.3. Coverage – sector), some professions (occupations) are also subject to national confidentiality rules and delivered on a voluntary basis as mentioned in annex II of the ESAW implementing Regulation 349/2011:&lt;/p&gt;
+&lt;p&gt;For ISCO – 08:&lt;br /&gt;- 0 Armed forces occupations&lt;br /&gt;- 3351 Customs and border inspectors&lt;br /&gt;- 3355 Police inspectors and detectives&lt;br /&gt;- 541 Protective services workers&lt;br /&gt; a. 5411 Fire-fighters&lt;br /&gt; b. 5412 Police officers&lt;br /&gt; c. 5413 Prison guards&lt;br /&gt; d. 5414 Security guards&lt;br /&gt; e. 5419 Protective services workers not elsewhere classified&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="STAT_POP_ESAW">
+                        <genericmetadata:Value>&lt;p&gt;COVERAGE OF PROFESSIONAL STATUS (Annual update expected)&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p style="text-align: left;" align="center"&gt;&lt;strong&gt;Professional status&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap="nowrap" width="281"&gt;&lt;strong&gt;&amp;nbsp;Coverage&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&lt;strong&gt;1. Self employed &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; 1.1 Self employed with employees&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; 1.2 Self employed without employees&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&lt;strong&gt;2. Family worker&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;P&lt;sup&gt;1&lt;/sup&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&lt;strong&gt;3. Employee&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; 3.1 Part time workers&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; 3.2 Casual workers&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;P&lt;sup&gt;1&lt;/sup&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; 3.3 Trainees/Apprentices&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&lt;strong&gt;4. Students&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="281"&gt;
+&lt;p&gt;&lt;strong&gt;5. Others &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="281"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Additional comments on coverage of professionnal status&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1: It is covered only if the employment is on the base of the written contract.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Codes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;y Professional status fully covered&lt;br /&gt;n Professional status not covered at all&lt;br /&gt;p Professional status partially covered&lt;br /&gt;n.a. Not applicable, i.e. professional status does not exist in country&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;COVERAGE OF ACCIDENTS OUTSIDE PREMISES (Annual update expected)&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="bottom" width="437"&gt;
+&lt;p&gt;&lt;strong&gt;Accidents in the course of work&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="width: 437px;"&gt;&lt;strong&gt;Coverage&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="437"&gt;
+&lt;p&gt;&lt;strong&gt;1. Commuting accidents&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" nowrap="nowrap" width="437"&gt;P&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;&lt;strong&gt;2. Accidents in a public place or in a mean of transport during a journey in the course of work&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;2.1 Road traffic accidents in the course of work (public highways, car parks, internal ways inside the premises of the enterprise)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;2.2 Number of fatal &lt;span style="text-decoration: underline;" data-mce-mark="1"&gt;road traffic accidents&lt;/span&gt; during a journey in the course of work for persons employed outside the NACE Rev. 2 sector H Transportation (PLEASE INSERT THE MANDATORY NUMBER)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;2.3 Other accidents (slips, falls, aggressions, etc.) in a public place (pavement, staircases, etc.) or in the arrival and starting points (station, port, airport, etc.) of any mean of transport, during a journey in the course of work&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;2.4 Accidents on board of any means of transport (underground railway, tram, train, boat, plane, etc.) used during a journey in the course of work&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;2.5 Number of fatal &lt;span style="text-decoration: underline;" data-mce-mark="1"&gt;accidents on board of any other means of transport&lt;/span&gt; during a journey in the course of work for persons employed outside the NACE Rev. 2 sector H Transportation (PLEASE INSERT THE MANDATORY NUMBER)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;&lt;strong&gt;3. Accidents occurred within the premises of another company than that which employs the victim, or in a private individual, in the course of work &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;Y&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="437"&gt;
+&lt;p&gt;&lt;strong&gt;4. Accidents having only a medical origin, in the course of work &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;" width="437"&gt;N&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Additional comments on coverage of accidents outside premises&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Please insert&amp;nbsp;&lt;span&gt;mandatory numbers for 2.2 and 2.5.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Commuting accidents are collected but excluded in the phase of delivering data to Eurostat.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Codes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;y Accidents fully covered&lt;br /&gt;n Accidents not covered at all&lt;br /&gt;p Accidents partially covered&lt;br /&gt;F Data of fatal road traffic accidents and fatal accidents on board of any means of transport provided in the main CSV data file&lt;br /&gt;A Data of fatal and non-fatal road traffic accidents as well as fatal and non-fatal accidents on board of any means of transport provided in the main CSV data file&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REF_AREA">
+                    <genericmetadata:Value>&lt;p&gt;Data are available for all EU-Member State, Iceland (from 2012), Norway and Switzerland.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME">
+                    <genericmetadata:Value>&lt;p&gt;Data are available since reference year 1994 for all EU-15 Member States, from 1995 also for Norway.&lt;/p&gt;
+&lt;p&gt;Data for Switzerland was added from 2004 and Icelandic data from 2012.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="BASE_PER">
+                    <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="UNIT_MEASURE">
+                <genericmetadata:Value>&lt;p&gt;The following measurement units are used in ESAW data:&lt;/p&gt;
+&lt;p&gt;- Numbers of accidents&lt;/p&gt;
+&lt;p&gt;- Percentages of accidents (in relation to different totals and breakdowns)&lt;/p&gt;
+&lt;p&gt;- Incidence rates of accidents: number of accidents per 100,000 workers&lt;/p&gt;
+&lt;p&gt;- Standardised incidence rates: number of accidents per 100,000 workers adjusted for the relative sizes of economic sectors at EU level (see section 18.6 Adjustment for more details)&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="REF_PERIOD">
+                <genericmetadata:Value>&lt;p&gt;The calendar year during which the accidents were reported to have taken place (reference year).&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="INST_MANDATE">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="INST_MAN_LA_OA">
+                    <genericmetadata:Value>&lt;p&gt;Slovenian Healthcare Databases Act: Zakon o zbirkah podatkov s področja zdravstvenega varstva (Uradni list RS, št.&amp;nbsp;65/2000&amp;nbsp;in&amp;nbsp;47/2015)&lt;/p&gt;
+&lt;p&gt;Law on pension and disability insurance act: Zakon o pokojninskem in invalidskem zavarovanju (ZPIZ-2) (Uradni list RS, št.&amp;nbsp;96/2012)&lt;/p&gt;
+&lt;p&gt;Safety and Health at Work Act: Zakon o varnosti in zdravju pri delu (ZVZD-1) (Uradni list RS, št. 56/1999, 64/2001 in 43/2011)&lt;/p&gt;
+&lt;p&gt;Annual Programme of Statistical Surveys for 2018: Letni program statističnih raziskovanj za 2018 (velja od 1. 1. 2018 do 31. 12. 2018) (Uradni list RS, št. 66/17)&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="INST_MAN_SHAR">
+                    <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="CONF">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONF_POLICY">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Regulation (EC) No 223/2009 on European statistics (recital 24 and Article 20(4)) of 11 March 2009 (OJ L 87, p. 164; http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:087:0164:0173:En:PDF), stipulates the need to establish common principles and guidelines ensuring the confidentiality of data used for the production of European statistics and the access to those confidential data with due account for technical developments and the requirements of users in a democratic society.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Commission Regulation (EU) No 557/2013 of 17 June 2013 implementing Regulation (EC) No 223/2009 of the European Parliament and of the Council on European Statistics as regards access to confidential data for scientific purposes and repealing Commission Regulation (EC) No 831/2002 Text with EEA relevance (http://eur-lex.europa.eu/legal-cont), 'establishes the conditions under which access to confidential data transmitted to the Commission (Eurostat) may be granted for enabling statistical analyses for scientific purposes, and the rules of cooperation between the Commission (Eurostat) and national statistical authorities in order to facilitate such access' (article 1).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONF_DATA_TR">
+                    <genericmetadata:Value>&lt;p&gt;Data set for internal users is anonymised and does not include specific variables (personal identification number, date of birth, date of accident, etc.). Single data values &amp;lt;5 are not published.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="REL_POLICY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REL_CAL_POLICY">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;ESAW data is usually released between January - September of each year (in year N+2, where N is the reference year in which the accidents took place), with a focus on end of June - July (release of most countries' data). There is no specific release calendar for ESAW data (see the Eurostat website for all published ESAW data).&lt;/p&gt;
+&lt;p&gt;See section 14. Timeliness and punctuality for more details about the timing and punctuality of ESAW data releases.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REL_CAL_ACCESS">
+                    <genericmetadata:Value>&lt;p&gt;Not available.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REL_POL_US_AC">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;In line with the Community legal framework and the European Statistics Code of Practice (http://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-32-11-955) Eurostat disseminates European statistics on Eurostat's website (see worksheet 10. Accessibility and clarity) respecting professional independence and in an objective, professional and transparent manner in which all users are treated equitably.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The detailed arrangements are governed by the Eurostat protocol on impartial access to Eurostat data for users (http://ec.europa.eu/eurostat/web/quality/european-statistics-code-of-practice).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="FREQ_DISS">
+                <genericmetadata:Value>&lt;p&gt;Annual.&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCESSIBILITY_CLARITY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="NEWS_REL">
+                    <genericmetadata:Value>&lt;p&gt;See Eurostat website (http://ec.europa.eu/eurostat) for occasional news releases.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="PUBLICATIONS">
+                    <genericmetadata:Value>&lt;p&gt;See Eurostat website (http://ec.europa.eu/eurostat) for publications on accidents at work including:&lt;/p&gt;
+&lt;p&gt;Accidents at work statistics (Statistics Explained article - updated once per year; http://ec.europa.eu/eurostat/statistics-explained/index.php/Accidents_at_work_statistics)&lt;/p&gt;
+&lt;p&gt;8.6% of workers in the EU experienced work-related health problems - Issue number 63/2009 (http://ec.europa.eu/eurostat/web/product_details/publication?p_product_code=KS-SF-09-063)&lt;/p&gt;
+&lt;p&gt;Health and safety at work in Europe (1999-2007) (http://ec.europa.eu/eurostat/en/web/products-statistical-books/-/KS-31-09-290)&lt;/p&gt;
+&lt;p&gt;Work and health in the European Union - A statistical portrait - Data 1994-2002 (http://ec.europa.eu/eurostat/de/web/products-statistical-books/-/KS-57-04-807)&lt;/p&gt;
+&lt;p&gt;Accidents at work in the EU 1998-1999 (http://ec.europa.eu/eurostat/web/product_details/publication?p_product_code=KS-NK-01-016)&lt;/p&gt;
+&lt;p&gt;Accidents at work in the EU in 1996 (http://ec.europa.eu/eurostat/en/web/products-statistics-in-focus/-/CA-NK-00-004)&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ONLINE_DB">
+                    <genericmetadata:Value>&lt;p&gt;See 'data' on the Eurostat website (http://ec.europa.eu/eurostat; datasets under 'Database by themes/Population and social conditions/Health/Health and safety at work (hsw)/Accidents at work (ESAW…)' ).&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="DATATABLE_CONSULT">
+                        <genericmetadata:Value>&lt;p&gt;Not available.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="MICRO_DAT_ACC">
+                    <genericmetadata:Value>&lt;p&gt;ESAW microdata are not diseeminated at national level.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DISS_OTHER">
+                    <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="METADATA_CONSULT">
+                        <genericmetadata:Value>&lt;p&gt;Not available (at EU level).&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DOC_METHOD">
+                    <genericmetadata:Value>&lt;p&gt;The ESAW summary methodology (version of 2013) defines further details of the data to be transmitted.&lt;/p&gt;
+&lt;p&gt;(see http://ec.europa.eu/eurostat/en/web/products-manuals-and-guidelines/-/KS-RA-12-102).&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="METADATA_COMPLETE">
+                        <genericmetadata:Value>&lt;p&gt;All countries provide metadata.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_DOC">
+                    <genericmetadata:Value>&lt;p&gt;This file and similar files of (other) countries consitute the documentation available on data quality of ESAW.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="QUALITY_MGMNT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSURE">
+                    <genericmetadata:Value>&lt;p&gt;Production of statistics in accordance with the principles of the European Statistics Code of Practice.&lt;/p&gt;
+&lt;p&gt;NIJZ is ISO certified: ISO-9001: 2015.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSMNT">
+                    <genericmetadata:Value>&lt;p&gt;Employers can fill in the electronic or paper form of the report of the accidetns at work.&lt;/p&gt;
+&lt;p&gt;Reports are checked and entered in data entry form (with encorporates value check, skip checks and inconsistency checks).&lt;/p&gt;
+&lt;p&gt;For fatal accidents the data is cross-checked with the Labour Inspectorate.&lt;/p&gt;
+&lt;p&gt;It is assumed that for non-fatal accidents of farmers we have under-coverage in the data.&lt;/p&gt;
+&lt;p&gt;Under-reporting of non-fatal accidents occur among self-employed and those employed in small enterprises.&lt;/p&gt;
+&lt;p&gt;Specific Slovenian reference population is used in calculations as it is of high quality.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="RELEVANCE">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="USER_NEEDS">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;In the system of national statistics there are several advisory committees for development of national statistics in Slovenia at expert level and in cooperation of institutions in common efforts to provide quality, timely and relevant statistics.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Data on accidents at work can be communicated with the users in the Health Advisory Committee which meets regularly. &lt;br /&gt;Data users can also address NIJZ directly.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="USER_SAT">
+                    <genericmetadata:Value>&lt;p&gt;Eurostat carries out regular user satisfaction surveys (see http://ec.europa.eu/eurostat/web/quality/general-evaluation-results) including for statistical domains such as 'health'.&lt;/p&gt;
+&lt;p&gt;Information about the downloads of individual datasets, detailed tables, publications and Statistics Explained articles is regularly compiled and analysed.&lt;/p&gt;
+&lt;p&gt;All available information about user satisfaction is taken into account when developing data collections.&lt;/p&gt;
+&lt;p&gt;However, there is currently no dedicated user satisfaction survey on ESAW statistics.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPLETENESS">
+                    <genericmetadata:Value>&lt;p&gt;Slovenia provides all the requested variables to Eurostat:&lt;br /&gt;- all Phase I and Phase II variables,&lt;br /&gt;- 7 out of 9 Phase III variables (only 3 variables are mandatory to report).&lt;/p&gt;
+&lt;p&gt;All economic sectors are included in the Slovenian ESAW data.&lt;/p&gt;
+&lt;p&gt;Accidents at work among family workers and casual workers are covered only if the employment is on the base of the written contract.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COMPLETENESS_RATE">
+                        <genericmetadata:Value>&lt;p&gt;ESAW phase I and II variables are covered at nearly 100% level (for derogations and other exceptions see relevant sections in this file).&lt;/p&gt;
+&lt;p&gt;However and as outlined in section 13. on accuracy and reliability, ESAW data suffers at various degrees from under-reporting in some Member States (see among others section 19. Comments).&lt;/p&gt;
+&lt;p&gt;Some Member States do not cover certain economic sectors, professions and employment types (some of which are voluntary to cover; see metadata file in annex).&lt;/p&gt;
+&lt;p&gt;ESAW Phase III variables are currently covered by about 50% on average for all Member States and variables (only three out of nine phase III variables' data are mandatory to transmit to Eurostat).&lt;/p&gt;</genericmetadata:Value>
+                        <genericmetadata:ReportedAttribute conceptID="COMPLETENESS_RATE_ESAW_SECTORS">
+                            <genericmetadata:Value>&lt;p&gt;REPORTING LEVELS OF ECONOMIC SECTORS (NACE), (Annual update expected)&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Global reporting level&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 10%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;~ 100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Reporting levels by sector&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;A.&lt;/strong&gt; Agriculture, forestry and fishing&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;100%&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;B.&lt;/strong&gt; Mining and quarrying&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;em&gt;off shores&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;em&gt;others&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;C.&lt;/strong&gt; Manufacturing&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;D. &lt;/strong&gt;Electricity, gas, steam and air conditioning supply&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="363"&gt;
+&lt;p&gt;&lt;strong&gt;E.&lt;/strong&gt; Water supply, sewerage, steam and air conditioning supply&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;F. &lt;/strong&gt;Construction&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;~100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="363"&gt;
+&lt;p&gt;&lt;strong&gt;G.&lt;/strong&gt; Wholesale and retail trade; repair of motor vehicles, motorcycles&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;~100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;H.&lt;/strong&gt; Transportation and storage&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;~100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;em&gt;maritime transport (NACE 50)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;UNK&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;em&gt;air transport (NACE 51)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;em&gt;transport via Railways (NACE 49)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;em&gt;post &amp;amp; telecomunications (NACE 53)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;I.&lt;/strong&gt; Accomodation and food service activities&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;~100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;J. &lt;/strong&gt;Information and communication&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;K.&lt;/strong&gt; Financial and insurance activities&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;L.&lt;/strong&gt; Real state activities&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;M.&lt;/strong&gt; Professional, scientific and technical activities&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;N.&lt;/strong&gt; Administrative and support service activities&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="363"&gt;
+&lt;p&gt;&lt;strong&gt;O.&lt;/strong&gt; Public administration and defence;compulsory social security&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;em&gt;of which police and firebrigades (NACE 84.24 and 84.25)&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;P.&lt;/strong&gt; Education&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;Q. &lt;/strong&gt;Human health and social work activities&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;R.&lt;/strong&gt; Arts, entertainment and recreation&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;~100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;S.&lt;/strong&gt; Other service activities&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;&lt;span&gt;~100%&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="363"&gt;
+&lt;p&gt;&lt;strong&gt;T.&lt;/strong&gt; Activities of households as employers; undiferentiated goods- and services-producing activities of&amp;nbsp; households for own use&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;UNK&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap" width="363"&gt;
+&lt;p&gt;&lt;strong&gt;U.&lt;/strong&gt; Activites of extra territorial organisations and bodies&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="45"&gt;
+&lt;p align="center"&gt;UNK&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Additional comments on global reporting level&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;1:All employers are paying sick-leave benefit to 30 days of absence of employee or self employed.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;After 30 days compulsory health insurance compensate the payment. Sick-leave benefit is 100%&amp;nbsp;of a salary for accidents at work -&amp;gt; it should imply in the high reporting level.&lt;/p&gt;
+&lt;p&gt;* NACE sectors A, F, G, H, I, R there is a high level of self-employed persons.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;a.n. = assesment needed&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Codes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;N sector not covered by data collection&lt;br /&gt;UNK sector covered but unknown reporting level&lt;br /&gt;(value %) reporting level&lt;br /&gt;(e) rough estimate (instead of "medium" or "high")&lt;/p&gt;
+&lt;p style="padding-left: 30px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; Please fill in every cell with information, either "N" for sector not covered by the data collection, "UNK" for sectors covered but unknown reporting level, or a percentage value for sectors covered for which the reporting level is known (such as "52%"). Instead of "medium" or "high" please fill in a approximate value and flag it with "(e)" at the end, such as "50% (e)". Please fill in both, the global reporting cells and the detailed rows for individual sectors. If for example no sector is covered for your country, then fill into every cell "0", if all sectors are covered but all reporting levels are unknown fill in "UNK" in every cell. "N/A" should be replaced by either "N" or "UNK".&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</genericmetadata:Value>
+                        </genericmetadata:ReportedAttribute>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCURACY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="ACCURACY_OVERALL">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;As an administrative data collection, the data transmitted by Member States to Eurostat are thought to exactly reflect the number of accidents notified to the relevant national authorities.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Therefore, ESAW data are considered to have a high level of accuracy in relation to the absolute number of accidents notified in Member States.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Significant issues for the accuracy of ESAW are, however, under-coverage and under-reporting of accidents in several countries (see other sections in this file for more information).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Under-coverage means that a known part of the economy or workforce of a country is not covered by the data, for example if an economic sector or a certain professional status (e.g. self-employed) is by definition not included in the notification system.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Under-reporting means that certain accidents that should have been reported were in fact not reported, e.g. if enterprises or workers are not aware of the obligation/possibility to notify or if they are afraid of the consequences of notification for the company such as investments in health and safety. In general, it is thought that most fatal and very severe accidents are reported. In addition, it is assumed that more non-fatal and less severe accidents are reported in insurance based systems offering significant financial compensation for victims more accidents.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The national ESAW data sources are the notifications of accidents at work, either to national insurance systems for accidents at work (BE, BG, DE, EL, ES, FR, IT, LU, AT, PT, FI and CH) or to relevant national authorities such as labour inspectorates in the framework of a universal social security system (CZ, DK, EE, IE, CY, LV, LT, HU, MT, NL, PL, RO, SI, SK, SE, UK and NO).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Incidence rates and standardised incidence rates (number of accidents per 100,000 workers) vary often strongly between the two main types of notification systems, the insurance based and the universal social security based systems as listed before.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Non-fatal accidents (serious accidents) at work:&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Incidence rates are often only comparable between Member States of the same notification system (insurance or universal social security). In some Member States, weights are added to adjust the number of accidents, e.g. using data from Labour Force Surveys (LFS).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Fatal accidents at work:&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;In general, fatal accidents at work are assumed to be of higher accuracy than non-fatal accidents at work as fatal accidents are usually investigated by relevant state authorities.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="SAMPLING_ERR">
+                    <genericmetadata:Value>&lt;p&gt;The ESAW data collection is mainly based on data from administrative registers, and therefore there is usually no sampling involved.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;However, data from Germany and the Netherlands (all variables), Malta and Spain (variables on causes and circumstances) and Switzerland (some variables) and more recently from the UK (all variables) are (partially) based on sampling.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Weighting procedures are applied in those countries to correct for sampling errors.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="SAMPLING_ERR_IND">
+                        <genericmetadata:Value>&lt;p&gt;Not available.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="NONSAMPLING_ERR">
+                    <genericmetadata:Value>&lt;p&gt;General information about under-reporting errors can be found in other sections of this file.&lt;/p&gt;
+&lt;p&gt;The Czech Republic, Denmark, Estonia, Ireland, Hungary, Italy, Sweden and Norway apply weights to correct for under-reporting.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COVERAGRE_ERR">
+                        <genericmetadata:Value>&lt;p&gt;Information about the coverage of variables, economic sectors, employment types and occupations can be fond in the metadata annex to this file.&lt;/p&gt;</genericmetadata:Value>
+                        <genericmetadata:ReportedAttribute conceptID="OVERCOVERAGE_RATE">
+                            <genericmetadata:Value>&lt;p&gt;Not available.&lt;/p&gt;</genericmetadata:Value>
+                        </genericmetadata:ReportedAttribute>
+                        <genericmetadata:ReportedAttribute conceptID="COMMON_UNIT_SHARE">
+                            <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                        </genericmetadata:ReportedAttribute>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="MEASUREMENT_ERR">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="NONRESPONSE_ERR">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                        <genericmetadata:ReportedAttribute conceptID="UNIT_NONRESPONSE_RATE">
+                            <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                        </genericmetadata:ReportedAttribute>
+                        <genericmetadata:ReportedAttribute conceptID="ITEM_NONRESPONSE_RATE">
+                            <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                        </genericmetadata:ReportedAttribute>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="PROCESSING_ERR">
+                        <genericmetadata:Value>&lt;p&gt;Not available.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="MODEL_ASSUMP_ERR">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="TIMELINESS_PUNCT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="TIMELINESS">
+                    <genericmetadata:Value>&lt;p&gt;Data is delivered in time.&lt;/p&gt;
+&lt;p&gt;The data (as well as reference population data and metadata) for reference year 2018 was delivered on 19 June 2020.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="TIMELAG_FIRST">
+                        <genericmetadata:Value>&lt;p&gt;Approximately 12 months after the end of the reference year (experience of previous years).&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="TIMELAG_FINAL">
+                        <genericmetadata:Value>&lt;p&gt;Approximately 21 months after the end of the reference year (experience of previous years).&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="PUNCTUALITY">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Most countries transmit data before and a few days -weeks after the legal deadline of 30 June of year N+2. Eurostat then checks and validates this data and publishes most of it on its website within a few weeks (in July N+2 or before).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;A few countries may send data only during July - September of year N+2. All data is usually published until September - October of year N+2.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="PUNCTUALITY_RELEASE">
+                        <genericmetadata:Value>&lt;p&gt;See above.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COHER_COMPAR">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data on fatal accidents have a high level of comparability between all countries.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Data on non-fatal accidents are considered to be of limited comparability across certain groups of countries. See section 13. on 'accuracy' for further details, in particular concerning the existence of two different types of accident notification systems (insurance based and universal social security system based).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Standardised incidence rates are calculated in order to enable between comparison between countries (some countries have larger high-risk sectors in terms of work accidents, for example concerning certain occupations in transport, construction, manufacturing and agriculture; see section 18.6 Adjustment for more details).&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="ASYMMETRY_COEFF">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME">
+                    <genericmetadata:Value>&lt;p&gt;Data on the Eurostat website is divided between datasets with reference year up to 2007 (included), and datasets with reference year from 2008 onwards.&lt;/p&gt;
+&lt;p&gt;The datasets up to reference year 2007 are restricted to EU-15 Member States, Norway and Switzerland, and uses NACE Rev. 1 classification for economic activities.&lt;/p&gt;
+&lt;p&gt;The datasets from 2008 onwards include all countries of the previous datasets plus the other EU-28 Member States (Croatia from 2010 only) and Iceland (from 2012 onwards).&lt;/p&gt;
+&lt;p&gt;They use NACE Rev. 2 classification of economic activities.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_LENGTH">
+                        <genericmetadata:Value>&lt;p&gt;The last major break for ESAW data was between 2007 and 2008 including a change from NACE Rev.1 to NACE Rev. 2 and concerning the addition of the 13 new Member States which joined the EU in 2004, 2007 and 2013 respectively.&lt;/p&gt;
+&lt;p&gt;Therefore, the length of comparable ESAW time series is for example six years for reference years 2008 - 2013.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COHER_X_DOM">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;ESAW data may be compared with relevant data from the Labour Force Survey ad-hoc modules on accidents at work and other work-related health problems available from the same main data tree branch 'Health and safety at work (hsw)' for the reference years 2013, 2007 and 1999.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COHER_FREQSTAT">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="COHER_NATACCOUNTS">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COHER_INTERNAL">
+                    <genericmetadata:Value>&lt;p&gt;ESAW data on the Eurostat website since 2008 are largely coherent between the different datasets.&lt;/p&gt;
+&lt;p&gt;There are some exceptions if some countries use old classification systems such as for ISCO-88 classification for occupations.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COST_BURDEN">
+                <genericmetadata:Value>&lt;p&gt;There is currently no cost/burden analysis available for ESAW data at EU level.&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="DATA_REV">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REV_POLICY">
+                    <genericmetadata:Value>&lt;p&gt;ESAW data are occasionally revised, such as when a country notifies Eurostat about changes in the data and metadata.&lt;/p&gt;
+&lt;p&gt;In 2014 - 2015 a revision of reference populations of some countries was done which impacts on incidence rates (the reference populations is the denominator for incidence rates, the numerator is the numbers of accidents).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REV_PRACTICE">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The practice for data revisions is similar to the practice of publishing new data: either the country sends revised data to Eurostat which checks, validates and publishes it in agreement with the responsible national authority, or Eurostat calculates revised data and sends it to the country's authority for agreement.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="DATA_REV_AVGSIZE">
+                        <genericmetadata:Value>&lt;p&gt;Not available.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="STAT_PROCESS">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE">
+                    <genericmetadata:Value>&lt;p&gt;ESAW data is a mix of multiple data sources:&lt;br /&gt;1) Data on accidents at work&lt;br /&gt;2) Absenteeism data&lt;/p&gt;
+&lt;p&gt;Data on accidents at work are linked (based on several identification variables) with absenteeism data in order to get the absences that last more than 3 calendar days.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="FREQ_COLL">
+                    <genericmetadata:Value>&lt;p&gt;Annual.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COLL_METHOD">
+                    <genericmetadata:Value>&lt;p&gt;ESAW data are extracted from relevant national administrative databases according to ESAW concepts, definitions, variables and classifications (see also section '18.1. Source data' above).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DATA_VALIDATION">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Various automatic and manual checks are performed on ESAW data transmitted from Member States to Eurostat in order to identify possible errors and inconsistencies with the ESAW methodology.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Countries are asked to check all inconsistencies and corrections and re-send data if necessary.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Validation activities at EU level include:&lt;br /&gt;- completeness of data files transmitted (variable fields)&lt;br /&gt;- correctness of codes for each variable&lt;br /&gt;- comparing aggregated data at EU level with aggregates at national level&lt;br /&gt;- coverage of variables, sectors, employment types and other breakdowns&lt;br /&gt;- checking for differences in reporting levels (under-reporting)&lt;br /&gt;- comparing ESAW reference populations with EU Labour Force Survey (LFS) populations&lt;br /&gt;- consistency of totals and various breakdowns&lt;br /&gt;- use of use of variable weights to correct for sampling and/or under-reporting&lt;br /&gt;- checking for outliers&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DATA_COMP">
+                    <genericmetadata:Value>&lt;p&gt;Data are not weighted.&lt;/p&gt;
+&lt;p&gt;We impute only the missing data about the injured person (e.g. occupation, citizenship) - there are only up to 10 imputed data in the database.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="IMPUTATION_RATE">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ADJUSTMENT">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;In general, there are no adjustments done for ESAW data.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;ESAW standardised and non-standardised incidence rates are checked to some degree for outliers. In case of unreasonable high or low values of these incidence rates, in particular for certain more detailed breakdowns of data, Eurostat may remove related incidence rates from dissemination and replace the values by appropriate codes.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;As ESAW is an annual administrative data collection, there are no seasonal adjustments nor other time series adjustments done.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="SEASONAL_ADJ">
+                        <genericmetadata:Value>&lt;p&gt;Not applicable&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COMMENT_DSET">
+                <genericmetadata:Value></genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+        </genericmetadata:AttributeValueSet>
+        <genericmetadata:Annotations>
+            <common:Annotation>
+                <common:AnnotationType>FOR_PUBLICATION</common:AnnotationType>
+                <common:AnnotationText>YES</common:AnnotationText>
+            </common:Annotation>
+        </genericmetadata:Annotations>
+    </genericmetadata:MetadataSet>
+</GenericMetadata>
