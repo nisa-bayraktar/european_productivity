@@ -11,11 +11,12 @@ def load_data():
     sentiment_df = pd.read_csv('data\sentiment.csv')
     hours_worked_df = pd.read_csv('data\lfsa_ewhun2_1_Data.csv')
     args += [prod_df, sentiment_df, hours_worked_df]
+    sentiment_df.fillna(0)
+    prod_df.fillna(0)
     return args
 
 # %%
 args = load_data()
 prod_df, sentiment_df, hours_worked_df = args
 print(prod_df.head())
-
 
