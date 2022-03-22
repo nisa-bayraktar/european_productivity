@@ -18,5 +18,10 @@ def load_data():
 # %%
 args = load_data()
 prod_df, sentiment_df, hours_worked_df = args
-print(prod_df.head())
+print(prod_df)
 
+plt.plot(np.repeat(np.array([np.linspace(2005, 2020, 16)]).transpose(), 20, 1), prod_df.iloc[0:20, 2:-1].to_numpy(dtype = np.float64).T)
+
+#%%
+
+np.corrcoef(prod_df.iloc[0:20, 2:-1].to_numpy(dtype = np.float64).T[:, 0:20].T)
