@@ -3,25 +3,81 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # %%
 def load_data():
     args = []
     prod_df = pd.read_csv('data\productivity.csv')
+    prod_new_df = pd.read_csv('data\productivity_new.csv')
     sentiment_df = pd.read_csv('data\sentiment.csv')
     hours_worked_df = pd.read_csv('data\lfsa_ewhun2_1_Data.csv')
-    args += [prod_df, sentiment_df, hours_worked_df]
+    productivity_df = pd.read_csv('./data/GDP_per_quarter.csv') 
+    unem_df = pd.read_csv('./data/unem.csv')
+    covid_df = pd.read_csv('./data/DataPerWeek.csv')
+    unem_df.fillna(0)
+    productivity_df.fillna(0)
     sentiment_df.fillna(0)
     prod_df.fillna(0)
+    covid_df.fillna(0)
+    args += [prod_df, sentiment_df, hours_worked_df, prod_new_df, productivity_df, unem_df, covid_df]
     return args
 
 # %%
 args = load_data()
-prod_df, sentiment_df, hours_worked_df = args
-print(prod_df)
-
-plt.plot(np.repeat(np.array([np.linspace(2005, 2020, 16)]).transpose(), 20, 1), prod_df.iloc[0:20, 2:-1].to_numpy(dtype = np.float64).T)
+prod_df, sentiment_df, hours_worked_df, prod_new_df, productivity_df, unem_df, covid_df = args
+for i in np.linspace(2005, 2020, 16, endpoint=True):
+    prod_df[[str(int(i))]] = prod_df[[str(int(i))]].apply(pd.to_numeric, errors="coerce")
+print(prod_df.head(), sentiment_df.head(), hours_worked_df.head(), prod_new_df.head(), productivity_df.head(), unem_df.head(), covid_df.head())
 
 #%%
+prod_data = prod_df.iloc[0:71, 2:-1].replace(np.nan, 0).to_numpy(dtype = np.float64).T
+time_data = np.repeat(np.array([np.linspace(2005, 2020, 16)]).transpose(), 71, 1)
+plt.plot(time_data, prod_data)
+plt.show()
 
-np.corrcoef(prod_df.iloc[0:20, 2:-1].to_numpy(dtype = np.float64).T[:, 0:20].T)
+#%%
+corr = np.round(np.corrcoef(prod_df.iloc[0:25, 2:-1].replace(np.nan, 0).to_numpy(dtype = np.float16)), 3)
+mask = np.triu(np.ones_like(corr, dtype=bool))
+print(corr)
+cmap = sns.diverging_palette(230, 20, as_cmap=True)
+
+sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
+            square=True, linewidths=.5, cbar_kws={"shrink": .5})
+plt.show()
+#%%
+prod_df.head(), productivity_df.head()
+
+#%%
+GDP_df = pd.read_excel('./data/GDP_per_quarter_2.xlsx', sheet_name='Sheet 1')
+HW_df = pd.read_excel('./data/hours_worked.xlsx', sheet_name='Sheet 1')
+employees_df = pd.read_excel('./data/Employees.xlsx', sheet_name='Sheet 1')
+print(GDP_df.index, HW_df.index, employees_df.index)
+GDP_df = GDP_df.loc[:, ~GDP_df.columns.str.contains('^Unnamed')]
+HW_df = HW_df.loc[:, ~HW_df.columns.str.contains('^Unnamed')]
+employees_df = employees_df.loc[:, ~employees_df.columns.str.contains('^Unnamed')]
+GDP_df.replace(':', np.nan, inplace=True)
+HW_df.replace(':', np.nan, inplace=True)
+employees_df.replace(':', np.nan, inplace=True)
+GDP_df.interpolate(method='linear', inplace=True)
+HW_df.interpolate(method='linear', inplace=True)
+employees_df.interpolate(method='linear', inplace=True)
+
+def create_per_employeer(GDP_df, HW_df, employees_df):
+    ''' This is a function to create a dataframe with the per-employee GDP and per hour worked '''
+    cols =(list(set(GDP_df.columns) and set(employees_df.columns) and set(HW_df.columns)))
+    cols.sort()
+    idx = cols.pop()
+    per_employee_df = pd.DataFrame(index=GDP_df.index, columns=cols)
+    for i in cols:
+        GDP_df[i] = GDP_df[i].apply(pd.to_numeric, errors="coerce")
+        employees_df[i] = employees_df[i].apply(pd.to_numeric, errors="coerce")
+        HW_df[i] = HW_df[i].apply(pd.to_numeric, errors="coerce")
+        per_employee_df[i] = GDP_df[i]/employees_df[i]
+        per_HW = per_employee_df[i]/HW_df[i]
+    per_employee_df.index = GDP_df[idx]
+    per_HW.index = GDP_df[idx]
+    return per_employee_df, per_HW
+per_employee_df, per_HW = create_per_employeer(GDP_df, HW_df, employees_df)
+
+print(per_employee_df.head(), per_HW.head())
