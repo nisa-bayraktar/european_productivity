@@ -54,11 +54,12 @@ def load_df(file_name):
     df = pd.read_excel(file_name, sheet_name='Sheet 1')
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
     df.replace(':', np.nan, inplace=True)
-    for i in df.columns:
+    df.index = df.iloc[:, 0]
+    df.drop(df.columns[[0]], axis=1, inplace=True)
+    for i in df.columns[:]:
         df[i] = df[i].apply(pd.to_numeric, errors="coerce")
     df.interpolate(method='linear', inplace=True, axis = 1)
     return df
-
 
 def create_per_employeer(GDP_df, HW_df, employees_df):
     ''' This is a function to create a dataframe with the per-employee GDP and per hour worked '''
@@ -70,21 +71,16 @@ def create_per_employeer(GDP_df, HW_df, employees_df):
     for i in cols:
         per_employee_df[i] = GDP_df[i]/employees_df[i]
         per_HW_df[i] = per_employee_df[i]/HW_df[i]
-    per_employee_df.index = GDP_df[idx]
-    per_HW_df.index = GDP_df[idx]
     return per_employee_df, per_HW_df
 
 GDP_df =  load_df('./data/GDP_per_quarter_2.xlsx') * 1e6
-HW_df = load_df('./data/hours_worked.xlsx') * 1e3
-employees_df = load_df('./data/Employees.xlsx') 
+HW_df = load_df('./data/hours_worked.xlsx')
+employees_df = load_df('./data/Employees.xlsx') * 1e3
 per_employee_df, per_HW_df = create_per_employeer(GDP_df, HW_df, employees_df)
 
+print(HW_df.mean(axis=1), HW_df.std(axis=1))
 
-#print(HW_df.mean(axis=1), HW_df.std(axis=1))
-
-#%%
-plt.figure(1)
-per_HW_df.iloc[4, :].T.plot()
-print(per_HW_df.index[4])
+per_HW_df.iloc[[4,6,15], :].T.plot(legend = False)
+print(per_HW_df.index)
 #%%
 #reg = LinearRegression().fit(np.linspace(0, len(HW_df.columns), len(HW_df.columns), endpoint=False).reshape(-1, 1), HW_df.iloc[:, 1]) 
