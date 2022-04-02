@@ -52,7 +52,7 @@ prod_df.head(), productivity_df.head()
 #%%
 GDP_df = pd.read_excel('./data/GDP_per_quarter_2.xlsx', sheet_name='Sheet 1')
 HW_df = pd.read_excel('./data/hours_worked.xlsx', sheet_name='Sheet 1')
-employees_df = pd.read_excel('./data/Employees.xlsx', sheet_name='Sheet 1')
+employees_df = pd.read_excel('./data/Employees.xlsx', sheet_name='Sheet 1') 
 GDP_df = GDP_df.loc[:, ~GDP_df.columns.str.contains('^Unnamed')]
 HW_df = HW_df.loc[:, ~HW_df.columns.str.contains('^Unnamed')]
 employees_df = employees_df.loc[:, ~employees_df.columns.str.contains('^Unnamed')]
@@ -71,14 +71,12 @@ def create_per_employeer(GDP_df, HW_df, employees_df):
     per_employee_df = pd.DataFrame(index=GDP_df.index, columns=cols)
     per_HW_df = pd.DataFrame(index=GDP_df.index, columns=cols)
     for i in cols:
-        GDP_df[i] = GDP_df[i].apply(pd.to_numeric, errors="coerce")
-        employees_df[i] = employees_df[i].apply(pd.to_numeric, errors="coerce")
+        GDP_df[i] = GDP_df[i].apply(pd.to_numeric, errors="coerce") * 1e6
+        employees_df[i] = employees_df[i].apply(pd.to_numeric, errors="coerce") * 1e3
         HW_df[i] = HW_df[i].apply(pd.to_numeric, errors="coerce")
         per_employee_df[i] = GDP_df[i]/employees_df[i]
         per_HW_df[i] = per_employee_df[i]/HW_df[i]
-    print(per_HW_df.head())
     per_employee_df.index = GDP_df[idx]
-    #per_HW.index = per_employee_df.index
     return per_employee_df, per_HW_df
 per_employee_df, per_HW_df = create_per_employeer(GDP_df, HW_df, employees_df)
 
