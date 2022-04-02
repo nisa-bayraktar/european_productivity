@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.linear_model import LinearRegression
 
 # %%
 def load_data():
@@ -52,7 +53,6 @@ prod_df.head(), productivity_df.head()
 GDP_df = pd.read_excel('./data/GDP_per_quarter_2.xlsx', sheet_name='Sheet 1')
 HW_df = pd.read_excel('./data/hours_worked.xlsx', sheet_name='Sheet 1')
 employees_df = pd.read_excel('./data/Employees.xlsx', sheet_name='Sheet 1')
-print(GDP_df.index, HW_df.index, employees_df.index)
 GDP_df = GDP_df.loc[:, ~GDP_df.columns.str.contains('^Unnamed')]
 HW_df = HW_df.loc[:, ~HW_df.columns.str.contains('^Unnamed')]
 employees_df = employees_df.loc[:, ~employees_df.columns.str.contains('^Unnamed')]
@@ -69,15 +69,23 @@ def create_per_employeer(GDP_df, HW_df, employees_df):
     cols.sort()
     idx = cols.pop()
     per_employee_df = pd.DataFrame(index=GDP_df.index, columns=cols)
+    per_HW_df = pd.DataFrame(index=GDP_df.index, columns=cols)
     for i in cols:
         GDP_df[i] = GDP_df[i].apply(pd.to_numeric, errors="coerce")
         employees_df[i] = employees_df[i].apply(pd.to_numeric, errors="coerce")
         HW_df[i] = HW_df[i].apply(pd.to_numeric, errors="coerce")
         per_employee_df[i] = GDP_df[i]/employees_df[i]
-        per_HW = per_employee_df[i]/HW_df[i]
+        per_HW_df[i] = per_employee_df[i]/HW_df[i]
+    print(per_HW_df.head())
     per_employee_df.index = GDP_df[idx]
-    per_HW.index = GDP_df[idx]
-    return per_employee_df, per_HW
-per_employee_df, per_HW = create_per_employeer(GDP_df, HW_df, employees_df)
+    #per_HW.index = per_employee_df.index
+    return per_employee_df, per_HW_df
+per_employee_df, per_HW_df = create_per_employeer(GDP_df, HW_df, employees_df)
 
-print(per_employee_df.head(), per_HW.head())
+#print(HW_df.mean(axis=1), HW_df.std(axis=1))
+
+print(per_HW_df.head())
+#%%
+HW_df.iloc[0:, 1:].T.plot()
+#%%
+#reg = LinearRegression().fit(np.linspace(0, len(HW_df.columns), len(HW_df.columns), endpoint=False).reshape(-1, 1), HW_df.iloc[:, 1]) 
