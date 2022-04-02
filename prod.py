@@ -77,13 +77,19 @@ def create_per_employeer(GDP_df, HW_df, employees_df):
         per_employee_df[i] = GDP_df[i]/employees_df[i]
         per_HW_df[i] = per_employee_df[i]/HW_df[i]
     per_employee_df.index = GDP_df[idx]
+    per_HW_df.index = GDP_df[idx]
     return per_employee_df, per_HW_df
 per_employee_df, per_HW_df = create_per_employeer(GDP_df, HW_df, employees_df)
 
 #print(HW_df.mean(axis=1), HW_df.std(axis=1))
 
-print(per_HW_df.head())
 #%%
-HW_df.iloc[0:, 1:].T.plot()
+plt.figure(1)
+per_HW_df.iloc[4, :48].T.plot()
+plt.figure(2)
+per_HW_df.iloc[4, 48:52].T.plot()
+plt.figure(3)
+per_HW_df.iloc[4, 52:].T.plot()
+print(per_HW_df.index[4])
 #%%
 #reg = LinearRegression().fit(np.linspace(0, len(HW_df.columns), len(HW_df.columns), endpoint=False).reshape(-1, 1), HW_df.iloc[:, 1]) 
