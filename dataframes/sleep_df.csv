@@ -1,31 +1,31 @@
-Country,Hours
-Austria,7.183
-Belgium,7.3
-Bulgaria,7.15
-Croatia,7.233
-Czechia,7.183
-Denmark,7.25
-Estonia,7.367
-Finland,7.5
-France (including Monaco),7.383
-Germany,7.233
-Greece,7.1
-Hungary,7.167
-Iceland,7.383
-Ireland,7.283
-Italy,7.083
-Latvia,7.15
-Lithuania,7.3
-Luxembourg,7.117
-Malta,6.967
-Netherlands,7.467
-Norway,7.333
-Poland,7.083
-Portugal (including the Azores and Madeira),7.217
-Republic of Cyprus,7.233
-Romania,7.15
-Slovakia,7.2
-Slovenia,7.167
-Spain (including the Balearic Islands),7.067
-Sweden,7.3
-Switzerland,7.317
+Country,2000,2010,2022
+Austria,:,8:20,7.183
+Belgium,8:25,8:30,7.3
+Bulgaria,9:07,:,7.15
+Croatia,,,7.233
+Czechia,,,7.183
+Denmark,,,7.25
+Estonia,8:25,8:43,7.367
+Finland,,,7.5
+France (including Monaco),8:50,8:22,7.383
+Germany,8:12,8:21,7.233
+Greece,:,8:24,7.1
+Hungary,:,8:27,7.167
+Iceland,,,7.383
+Ireland,,,7.283
+Italy,8:18,8:21,7.083
+Latvia,8:40,:,7.15
+Lithuania,8:32,:,7.3
+Luxembourg,:,8:37,7.117
+Malta,,,6.967
+Netherlands,:,8:21,7.467
+Norway,8:03,8:01,7.333
+Poland,8:28,8:29,7.083
+Portugal (including the Azores and Madeira),,,7.217
+Republic of Cyprus,,,7.233
+Romania,,,7.15
+Slovakia,,,7.2
+Slovenia,,,7.167
+Spain (including the Balearic Islands),8:34,8:28,7.067
+Sweden,,,7.3
+Switzerland,,,7.317
