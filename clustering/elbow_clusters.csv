@@ -1,23 +1,23 @@
 features,score,elbow
 "['Education 2', 'GDP per employee', 'GDP per hour worked']",0.6414208665616749,5
-"['Depression', 'Education 2', 'GDP per hour worked']",0.6149960081761988,6
-"['Education 0', 'Education 1', 'Education 2']",0.6069826567679325,3
-"['Depression', 'Education 2', 'GDP per employee']",0.603349449094454,6
-"['Depression', 'Education 0', 'Education 2']",0.6015979655024647,4
+"['Education 0', 'Education 1', 'Education 2']",0.606982656757229,3
+"['Depression', 'Education 0', 'Education 2']",0.6015979655065625,4
 "['Depression', 'Education 1', 'Education 2']",0.6015979654807475,4
 "['GDP per employee', 'GDP per hour worked', 'Inflation']",0.5997040818601796,3
 "['Education 1', 'GDP per employee', 'GDP per hour worked']",0.5813987846378558,4
 "['Education 0', 'GDP per employee', 'GDP per hour worked']",0.5813987846378557,4
 "['Depression', 'GDP per employee', 'GDP per hour worked']",0.5811132369090799,4
-"['Education 0', 'Education 2', 'GDP per hour worked']",0.5762077514315479,3
 "['Education 1', 'Education 2', 'GDP per hour worked']",0.5762077514315479,3
-"['Education 0', 'Education 2', 'Inflation']",0.5758848869324705,3
+"['Education 0', 'Education 2', 'GDP per hour worked']",0.5762077514315479,3
 "['Education 1', 'Education 2', 'Inflation']",0.5758848869324704,3
+"['Education 0', 'Education 2', 'Inflation']",0.5758848869324702,3
 "['Depression', 'Education 2', 'Inflation']",0.5758182580096095,4
+"['Depression', 'Education 2', 'GDP per hour worked']",0.5731865061754051,4
+"['Depression', 'Education 2', 'GDP per employee']",0.5715889888297092,4
 "['Education 2', 'GDP per hour worked', 'Inflation']",0.5691623406409759,3
 "['GDP per employee', 'GDP per hour worked', 'Unemployment']",0.5647118953204265,3
-"['Education 0', 'Education 1', 'Unemployment']",0.564240355046696,3
+"['Education 0', 'Education 1', 'Unemployment']",0.5642403550468198,3
 "['Education 0', 'Education 1', 'GDP per employee']",0.5599182859969922,3
 "['Education 0', 'Education 1', 'GDP per hour worked']",0.5597046391565874,3
-"['Education 0', 'Education 2', 'GDP per employee']",0.5571171840350998,3
+"['Education 0', 'Education 2', 'GDP per employee']",0.5571171840350996,3
 "['Education 1', 'Education 2', 'GDP per employee']",0.5571171840350995,3
