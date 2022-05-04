@@ -7,8 +7,8 @@ features,score,elbow
 "['Education 1', 'GDP per employee', 'GDP per hour worked']",0.5813987846378558,4
 "['Education 0', 'GDP per employee', 'GDP per hour worked']",0.5813987846378557,4
 "['Depression', 'GDP per employee', 'GDP per hour worked']",0.5811132369090799,4
-"['Education 1', 'Education 2', 'GDP per hour worked']",0.5762077514315479,3
 "['Education 0', 'Education 2', 'GDP per hour worked']",0.5762077514315479,3
+"['Education 1', 'Education 2', 'GDP per hour worked']",0.5762077514315479,3
 "['Education 1', 'Education 2', 'Inflation']",0.5758848869324704,3
 "['Education 0', 'Education 2', 'Inflation']",0.5758848869324702,3
 "['Depression', 'Education 2', 'Inflation']",0.5758182580096095,4
